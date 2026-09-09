@@ -42,7 +42,6 @@ section {
 .pos-fixed-2 {
     position: fixed;
     background-color: lime;
-    left: -1;
     right: 0;
     top: 0;
 }
