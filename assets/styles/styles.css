@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    width: 500px;
+    margin: 0 auto;
+    background-color: lightseagreen;
+    height: 300vh;
+}
+
+section {
+    width: 400px;
+    margin: 0 auto;
+    background-color: coral;
+    height: 100vh;
+}
+
+.box {
+    --size: 80px;
+    border: 5px solid black;
+    padding: 10px;
+    width: var(--size);
+    height: var(--size);
+}
+
+.pos-fixed-container,
+.pos-fixed-container-2 {
+    position: relative;
+}
+
+.pos-fixed {
+    position: fixed;
+    background-color: lime;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+
+.pos-fixed-2 {
+    position: fixed;
+    background-color: lime;
+    left: -1;
+    right: 0;
+    top: 0;
+}
+
+.pos-fixed-3 {
+    position: fixed;
+    background-color: lime;
+    left: -1;
+    right: 0;
+    bottom: 0;
+}
+
+.pos-fixed-4 {
+    position: fixed;
+    background-color: lime;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 50%;
+}
